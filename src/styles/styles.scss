@@ -1,0 +1,41 @@
+/* Imports */
+
+/* Variables */
+
+$primary-color: #000120;
+$secondary-color: #fe6d3c;
+$text-color: #4d4d4d;
+$vin-turqiose: #1e4550;
+$vin-blue: #5bb7db;
+$vin-green: #148c66;
+$vin-purple: #a096dd;
+$vin-white: #f9f9f9;
+
+
+/* Styles */
+html, body, #app, #app > div, .full-screen {
+  height: 100%
+}
+
+body {
+  font: 1pc 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: $text-color;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  background-color: $primary-color;
+  
+  p {
+    color: lightslategrey;
+    font-weight: 500;
+  }
+
+  #app {
+    height: 100%;
+  }
+
+  #main-container {
+    padding-top: 3em;
+  }
+}

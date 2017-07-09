@@ -1,0 +1,64 @@
+@import '../../styles/styles.scss';
+
+
+#homePage {
+
+    section#welcome {
+        height: 100%;
+
+        .profile-container {
+            display: block;
+            text-align: center;
+            color: $vin-white;
+
+            .image-container {
+                margin: auto;
+                
+                .avatar {
+                    display: inline-block;
+                    padding: 0;
+                    max-width: 300px;
+                    border-style: ridge;
+                    border-width: 5px;
+                }
+            }
+
+            .text-container {
+                padding-top: 1em;
+                display: inline-block;
+                font-weight: 300;
+
+                .job-title {
+                    margin-bottom: .1em;
+                }
+            }
+
+            .badge-container {
+                margin: auto;
+                margin-bottom: .5em;
+
+                >span {
+                    margin: 3px;
+                }
+            }
+
+            .professional-links-container {
+                margin: auto;
+
+                .social-icon {
+                    margin: 3px;
+                }
+            }
+        }
+    }
+
+    section#skills {
+
+        .radar-container {
+            text-align: center;
+            background-color: grey;
+            margin: auto;
+        }
+    }
+}
+

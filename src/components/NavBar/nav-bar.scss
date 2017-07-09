@@ -1,0 +1,18 @@
+@import '../../styles/styles.scss';
+
+#navbar {
+
+    .navbar-nav {
+        flex-direction: row;
+        margin: auto;
+        
+        .nav-item {
+            margin: auto;
+            padding: .5em 1em;
+
+            >:link {
+                text-decoration: none;
+            }
+        }
+    }
+}
